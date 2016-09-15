@@ -7,8 +7,8 @@ contract Premium {
 
     }
 
-    function getPrice() {
-
+    function getPrice() returns(uint){
+        return 2 ether;
     }
 
     function getProfit() {

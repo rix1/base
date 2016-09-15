@@ -14,6 +14,9 @@ Premium.load(Pudding);
 
 window.onload = function() {
   web3.eth.getAccounts(function(err, accs) {
+      err && console.log(err);
+      accs && console.log(accs);
+
     if (err != null) {
       alert("There was an error fetching your accounts.");
       return;
